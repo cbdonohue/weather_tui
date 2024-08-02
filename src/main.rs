@@ -172,9 +172,9 @@ fn ui(frame: &mut Frame, res: &ForecastResult) {
     // Create the datasets to fill the chart with
     let datasets = vec![Dataset::default()
         .name("High")
-        .marker(symbols::Marker::Braille)
+        .marker(symbols::Marker::HalfBlock)
         .graph_type(GraphType::Line)
-        .style(Style::default().fg(Color::Magenta))
+        .style(Style::default().fg(Color::Red))
         .data(&chart_data)];
 
     // Create the X axis and define its properties

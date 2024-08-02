@@ -1,7 +1,7 @@
-09:19:33 [INFO] Starting the application...
-09:19:33 [INFO] Using location: Latitude 40.7128, Longitude -74.006
-09:19:33 [INFO] Fetching weather forecast...
-09:19:34 [INFO] Forecast successfully retrieved: ForecastResult {
+09:26:06 [INFO] Starting the application...
+09:26:06 [INFO] Using location: Latitude 40.7128, Longitude -74.006
+09:26:06 [INFO] Fetching weather forecast...
+09:26:07 [INFO] Forecast successfully retrieved: ForecastResult {
     current: None,
     hourly: None,
     daily: Some(
@@ -119,5 +119,5 @@
         ],
     ),
 }
-09:19:35 [INFO] Received quit command.
-09:19:35 [INFO] Application exiting...
+09:26:08 [INFO] Received quit command.
+09:26:08 [INFO] Application exiting...
