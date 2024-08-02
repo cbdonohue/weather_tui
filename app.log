@@ -1,0 +1,27 @@
+07:49:12 [INFO] Starting the application...
+07:49:12 [INFO] Fetching weather forecast...
+07:49:12 [INFO] Forecast successfully retrieved: ForecastResult {
+    current: Some(
+        ForecastResultHourly {
+            datetime: 2024-08-02T07:45:00,
+            values: {
+                "temperature_2m": ForecastResultItem {
+                    unit: Some(
+                        "°C",
+                    ),
+                    value: Number(21.9),
+                },
+                "interval": ForecastResultItem {
+                    unit: Some(
+                        "seconds",
+                    ),
+                    value: Number(900),
+                },
+            },
+        },
+    ),
+    hourly: None,
+    daily: None,
+}
+07:49:25 [INFO] Received quit command.
+07:49:25 [INFO] Application exiting...
