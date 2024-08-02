@@ -1,7 +1,7 @@
 
 # Weather TUI
 
-![image](https://github.com/user-attachments/assets/1095f55b-d724-4149-8839-8121363e36a5)
+![image](https://github.com/user-attachments/assets/727b3391-728b-4d27-a3af-09a0322c3e22)
 
 Weather TUI is a terminal-based weather application built in Rust that displays a forecast using a text-based user interface. It fetches weather data from the Open Meteo API and visualizes daily maximum temperatures on a chart. By default, it shows the forecast for New York City, but you can specify any location using command line arguments.
 
