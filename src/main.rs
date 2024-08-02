@@ -11,7 +11,7 @@ use ratatui::{
     style::{Color, Style},
     symbols,
 };
-use open_meteo_rs::forecast::{ForecastResult, Options, TemperatureUnit};
+use open_meteo_rs::forecast::{ForecastResult, ForecastResultDaily, Options, TemperatureUnit};
 use log::{info, error, debug};
 use simplelog::{Config, WriteLogger, LevelFilter};
 use std::fs::File;
