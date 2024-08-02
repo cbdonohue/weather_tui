@@ -1,27 +1,123 @@
-07:49:12 [INFO] Starting the application...
-07:49:12 [INFO] Fetching weather forecast...
-07:49:12 [INFO] Forecast successfully retrieved: ForecastResult {
-    current: Some(
-        ForecastResultHourly {
-            datetime: 2024-08-02T07:45:00,
-            values: {
-                "temperature_2m": ForecastResultItem {
-                    unit: Some(
-                        "°C",
-                    ),
-                    value: Number(21.9),
-                },
-                "interval": ForecastResultItem {
-                    unit: Some(
-                        "seconds",
-                    ),
-                    value: Number(900),
+09:08:17 [INFO] Starting the application...
+09:08:17 [INFO] Using location: Latitude 34.0522, Longitude -118.2437
+09:08:17 [INFO] Fetching weather forecast...
+09:08:18 [INFO] Forecast successfully retrieved: ForecastResult {
+    current: None,
+    hourly: None,
+    daily: Some(
+        [
+            ForecastResultDaily {
+                date: 2024-08-02,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(90.7),
+                    },
                 },
             },
-        },
+            ForecastResultDaily {
+                date: 2024-08-03,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(93.1),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-04,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(93.7),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-05,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(94.7),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-06,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(97.9),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-07,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(94.0),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-08,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(88.6),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-09,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(88.2),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-10,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(86.2),
+                    },
+                },
+            },
+            ForecastResultDaily {
+                date: 2024-08-11,
+                values: {
+                    "temperature_2m_max": ForecastResultItem {
+                        unit: Some(
+                            "°F",
+                        ),
+                        value: Number(86.8),
+                    },
+                },
+            },
+        ],
     ),
-    hourly: None,
-    daily: None,
 }
-07:49:25 [INFO] Received quit command.
-07:49:25 [INFO] Application exiting...
+09:08:19 [INFO] Received quit command.
+09:08:19 [INFO] Application exiting...
